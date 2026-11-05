@@ -2,8 +2,6 @@
 
 Arabic and English, side by side, with a review gate in front of production. Arabic is the source of truth. English moves through **draft → reviewed → approved**. Glossary mistakes and broken placeholders block that path. Only approved English is exported.
 
-![Translation Review](docs/screenshot.png)
-
 Machine drafts and rushed edits ship the same three failures: a brand name translated literally, a `:name` or `{amount}` placeholder dropped so a page breaks, and a leftover value such as `admin@admin.com` left in a title. This app stops those before they reach a language file.
 
 ## Rules
